@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background-color: rgb(171, 167, 167);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head-titulo {
+    background-color:rgb(68, 54, 117);
+    color: rgb(254, 254, 253);
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding-left: 40px;
+}
+h2 {
+    background-color:rgb(145, 163, 227);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: rgb(210, 206, 206);
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 10px;
+    border:solid rgb(63, 7, 182) 2px ;
+}
+
+.menu {
+    background-color: rgb(221, 220, 218);
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.seccion{
+    margin: 20px;
+    width: 660px;
+    float: left;
+}
+
+.barra {
+    margin: 20px;
+    width: 210px;
+    float: left;
+}
+
+.pie {
+    clear: both;
+    background-color: rgb(25, 25, 65);
+    color: white;
+}
+
+article footer {
+    text-align: right;
+}
+
+article{
+    background-color: rgb(221, 220, 218);
+}
+
+time {
+    text-align: left;
+}
+
+.parrafo-col {
+    margin-top: 20px;
+    padding: 30px;
+    background-color:rgb(145, 163, 227);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

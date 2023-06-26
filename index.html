@@ -4,78 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My Blog</title>  
 </head>
 <body>
-    <header>
-        <h1>MY BLOG</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li>Principal</li>
-            <li>Ayuda</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
+    <div class="container">
+        <header class="head-titulo">
+            <h1>MY BLOG</h1>
+        </header>
+        
+        <nav class="menu">
+            <ul>
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        
+        <section class="seccion">
+            <hr>
+            <article>
+                <hgroup>
+                    <h2 class="head2">Primer Articulo</h2>
+                    <h3>Subtitulo primer</h3>
+                </hgroup>
 
-    <section>
-        <article>
-            <hgroup>
-                <h2>Primer Articulo</h2>
-                <h3>Subtitulo primer</h3>
-            </hgroup>
+                <time datetime="17-07-2022"> <i> <small> Publicado 17-07-2022 </small>  </i> </time>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Cupiditate cum, eaque omnis 
+                    dolore eligendi dolorem officiis sapiente 
+                    repellendus possimus maiores similique aut 
+                    ullam at totam, distinctio veniam quam impedit 
+                    minus.</p>
 
-            <time datetime="17-07-2022"> <i> <small> Publicado 17-07-2022 </small>  </i> </time>
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Cupiditate cum, eaque omnis 
-                dolore eligendi dolorem officiis sapiente 
-                repellendus possimus maiores similique aut 
-                ullam at totam, distinctio veniam quam impedit 
-                minus.</p>
+                <img src="/images/logo.jpg" height="340px" alt="">
 
-            <img src="/images/logo.jpg" height="340px" alt="">
+                <footer>
+                    <p>Comentarios (0)</p>
+                </footer>
 
-            <footer>
-                <p>Comentarios (0)</p>
-            </footer>
+                <a href="https://google.com" target="_blank"> Google</a>
+                <br>
+                <a href="https://github.com" target="_blank"> Visita mi sitio</a>
 
-            <a href="https://google.com" target="_blank"> Google</a>
+            </article>
+
             <br>
-            <a href="https://github.com" target="_blank"> Visita mi sitio</a>
+            <hr>
+            <article>
+                <hgroup>
+                    <h2 class="head2">Segundo Articulo</h2>
+                    <h3>Subtitulo segundo</h3>
+                </hgroup>
+                
+                <time datetime="19-07-2022">  <i> <small> Publicado 19-07-2022 </small>  </i>  </time>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Cupiditate cum, eaque omnis 
+                    dolore eligendi dolorem officiis sapiente 
+                    repellendus possimus maiores similique aut 
+                    ullam at totam, distinctio veniam quam impedit 
+                    minus.</p>
 
-        </article>
+                <img src="/images/imagen2.jpg" height="340px" alt="">
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+            </article>
+        </section>
+        
+        <aside class="barra">
+            <hr>
+            <p class="parrafo-col">
+                columna 1
 
-        <br>
+            </p>
 
-        <article>
-            <hgroup>
-                <h2>Segundo Articulo</h2>
-                <h3>Subtitulo segundo</h3>
-            </hgroup>
-            
-            <time datetime="19-07-2022">  <i> <small> Publicado 19-07-2022 </small>  </i>  </time>
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Cupiditate cum, eaque omnis 
-                dolore eligendi dolorem officiis sapiente 
-                repellendus possimus maiores similique aut 
-                ullam at totam, distinctio veniam quam impedit 
-                minus.</p>
-            <footer>
-                <p>Comentarios (10)</p>
-            </footer>
-        </article>
-    </section>
+            <p class="parrafo-col">
+                columna2
+            </p>
+        </aside>
 
-    <aside>
-        File
-
-        About of
-    </aside>
-
-    <footer>
-        <p>Derechos reservados. &copy; 2023 </p>
-    </footer>
+        <footer class="pie">
+            <p>Derechos reservados. &copy; 2023 </p>
+        </footer>
+    </div>
 
 </body>
 </html>
